@@ -1,0 +1,38 @@
+name: shiptek
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.2+2
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.7.0
+  firebase_auth: ^4.2.9
+  fluttertoast: ^8.2.1
+  carousel_slider: ^4.2.1
+  scroll_loop_auto_scroll: ^0.0.2
+  webview_flutter: ^2.0.9
+  cloud_firestore: ^4.4.4
+  google_fonts: ^4.0.3
+
+  url_launcher:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/images/
+
+  uses-material-design: true
+

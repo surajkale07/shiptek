@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "245066018002",
+    "project_id": "shiptek-727eb",
+    "storage_bucket": "shiptek-727eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245066018002:android:37863248eb34144ad0910b",
+        "android_client_info": {
+          "package_name": "com.aries.shiptek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245066018002-gb4s403gkj1vejkp37m8p7138jtusr0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDQjtcDnAyslthRCAu_acC-tW8N33xwW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245066018002-gb4s403gkj1vejkp37m8p7138jtusr0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

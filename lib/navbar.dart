@@ -29,7 +29,7 @@ class _NavBarState extends State<NavBar> {
               decoration: BoxDecoration(
                 color: Colors.lightBlue,
                 image: DecorationImage(
-                  image: AssetImage("assets/images/logo.jpg"),
+                  image: AssetImage("assets/images/shiptekindia.png"),
                   fit: BoxFit.contain
                 ),
               ),

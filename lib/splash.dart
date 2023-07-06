@@ -31,7 +31,7 @@ class _SplashState extends State<Splash> {
     return Container(
       color: Colors.white,
       child: Container(
-        child: Image.asset("assets/images/logo.jpg"),
+        child: Image.asset("assets/images/shiptekindia.png"),
 
       ),
     );

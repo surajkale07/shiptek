@@ -24,7 +24,8 @@ class _DelegateState extends State<Delegate> {
             SizedBox(
               height: 50,
             ),
-            Text("KEY NOTE SPEAKERS",
+            Text("KEY NOTE SPEAKERS - Green Shipping Panel",
+              textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 30,
                 color: Colors.black87,
@@ -40,7 +41,7 @@ class _DelegateState extends State<Delegate> {
               color: Colors.lightBlue,
               child: SizedBox(
                 width: 300,
-                height: 550,
+                height: 400,
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(
@@ -50,7 +51,7 @@ class _DelegateState extends State<Delegate> {
                         radius: 108,
                         child: const CircleAvatar(
                           backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/hessa-almalek.jpg"), //NetworkImage
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/madhu-nair.jpg"), //NetworkImage
                           radius: 100,
                         ), //CircleAvatar
                       ), //CircleAvatar
@@ -58,7 +59,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       Text(
-                        'H.E Eng Hessa Ahmed Hamdan Almalek',
+                        'Madhu S Nair',
                         style: TextStyle(
                           fontSize: 30,
                           color: Colors.white,
@@ -69,7 +70,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       const Text(
-                        'Advisor to the Minister for Maritime Transport Affairs, The UAE Ministry of Energy & Infrastructure',
+                        'Chairman and Managing Director COCHIN SHIPYARD LIMITED',
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -82,7 +83,7 @@ class _DelegateState extends State<Delegate> {
                         width: 100,
                         child: ElevatedButton(
                           onPressed: () async {
-                            const url = "https://www.linkedin.com/in/hessa-al-malek-a39415139/";
+                            const url = "https://www.linkedin.com/in/madhu-s-nair-4675469/";
                             final uri = Uri.parse(url);
                             if (uri != Null) {
                               await launchUrl(uri);
@@ -110,13 +111,27 @@ class _DelegateState extends State<Delegate> {
                 ), //Padding
               ),
             ),
+            SizedBox(
+              height: 50,
+            ),
+            Text("VIP Guest - ShipTek International Awards",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.black87,
+                  fontWeight: FontWeight.bold,
+                  decoration: TextDecoration.underline
+              ),),
+            SizedBox(
+              height: 40,
+            ),
             Card(
               elevation: 50,
               shadowColor: Colors.black,
               color: Colors.lightBlue,
               child: SizedBox(
                 width: 300,
-                height: 500,
+                height: 450,
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(
@@ -125,8 +140,8 @@ class _DelegateState extends State<Delegate> {
                         backgroundColor: Colors.white,
                         radius: 108,
                         child: const CircleAvatar(
-                          backgroundImage: AssetImage( "assets/images/mohamedAli.png"),
-                          radius: 100,
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/captmuhammadali.jpg"),                          radius: 100,
                         ), //CircleAvatar
                       ), //CircleAvatar
                       const SizedBox(
@@ -144,7 +159,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       const Text(
-                        'Senior Vice President, Offshore Logistics ADNOC Logistics & Services',
+                        'SVP Offshore Logistics ADNOC Logistics & Services',
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -188,7 +203,7 @@ class _DelegateState extends State<Delegate> {
             SizedBox(
               height: 50,
             ),
-            Text("SPEAKERS",
+            Text(" Our Speakers ",
               style: TextStyle(
                   fontSize: 30,
                   color: Colors.black87,
@@ -204,7 +219,7 @@ class _DelegateState extends State<Delegate> {
               color: Colors.lightBlue,
               child: SizedBox(
                 width: 300,
-                height: 500,
+                height: 400,
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(
@@ -214,7 +229,7 @@ class _DelegateState extends State<Delegate> {
                         radius: 108,
                         child: const CircleAvatar(
                           backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/Ibrahim.jpg"), //NetworkImage
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/jayakumar.jpg"), //NetworkImage
                           radius: 100,
                         ), //CircleAvatar
                       ), //CircleAvatar
@@ -222,7 +237,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       Text(
-                        'Ibrahim Behairy',
+                        'Dr. Jayakumar',
                         style: TextStyle(
                           fontSize: 30,
                           color: Colors.white,
@@ -233,7 +248,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       const Text(
-                        'Managing Director Middle East & Africa, Winterthur Gas & Diesel DMCC.',
+                        'Chief Executive Officer Vizhinjam International Seaport Ltd',
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -246,7 +261,831 @@ class _DelegateState extends State<Delegate> {
                         width: 100,
                         child: ElevatedButton(
                           onPressed: () async {
-                            const url = "https://www.linkedin.com/in/dr-ibrahim-behairy-8b396632/";
+                            const url = "https://www.linkedin.com/in/dr-jayakumar-b3995b4/";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 400,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/Capt.AmitWason1.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Capt. Amit Wason',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'Owners Representative & Country Head M & L – MILAHA (INDIA)',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = "https://www.linkedin.com/in/capt-amit-wason-a784ab30/";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 400,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/andrew-bull.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Andrew Bull',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'VP - Business Solutions Shift Clean Energy',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = " ";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 400,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/gireesh-menon.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Gireesh Menon',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'Managing Director Aries Marine & Engg',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = "https://www.linkedin.com/in/gireesh-m-menon-975b0b2b/";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 400,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/srikant-choudary.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Shrikant Chaudhari',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'Engineering Manager Dubai Drydocks Mumbai',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = " ";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 400,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/shaji-janardhanan.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Shaji Janardhanan',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'Chief General Manager Kochi Metro Rail Ltd',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = "https://www.linkedin.com/in/shaji-p-janardhanan-23789317/";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 400,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/tanuj-balani.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Capt. Tanuj Balani',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'Director Stag Marine',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = "https://www.linkedin.com/in/tanuj-balani-3189b286/x";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 400,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/prakriti.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Prakriti Sethi',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'Chief India Representative Methanol Institute',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = "https://www.linkedin.com/in/prakriti-sethi-2865b3106/";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 450,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/sanio.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Capt. Sanio Radhakrishnan',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'Head of Wallem, Kochi Senior Operations Manager - Tanker Fleet',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = " ";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 400,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/abhijit.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Dr Abhijit Singh',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'AVP, Invest India ex-Executive Director, Indian Ports Association',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = "https://www.linkedin.com/in/singhabhijit/";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 400,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/sekhar.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Captain D C Sekhar',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'Founder Director AlphaMERS Ltd',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = "https://www.linkedin.com/in/dcsekhar/";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 400,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/sumithran.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Sumithran Sampath',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'General Manager ClassNK',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = "https://www.linkedin.com/in/sumithran-sampath-9306a419/";
                             final uri = Uri.parse(url);
                             if (uri != Null) {
                               await launchUrl(uri);
@@ -280,7 +1119,7 @@ class _DelegateState extends State<Delegate> {
               color: Colors.lightBlue,
               child: SizedBox(
                 width: 300,
-                height: 500,
+                height: 450,
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(
@@ -290,7 +1129,7 @@ class _DelegateState extends State<Delegate> {
                         radius: 108,
                         child: const CircleAvatar(
                           backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/varghese.jpg"), //NetworkImage
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/Radhika_Menon.jpg"), //NetworkImage
                           radius: 100,
                         ), //CircleAvatar
                       ), //CircleAvatar
@@ -298,7 +1137,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       Text(
-                        'Capt. Thomas Varghese',
+                        'Capt. Radhika Menon',
                         style: TextStyle(
                           fontSize: 30,
                           color: Colors.white,
@@ -309,7 +1148,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       const Text(
-                        'Managing Director Synergy Mideast Ship Management',
+                        'Co-founder IWSF',
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -322,7 +1161,7 @@ class _DelegateState extends State<Delegate> {
                         width: 100,
                         child: ElevatedButton(
                           onPressed: () async {
-                            const url = "https://www.linkedin.com/in/thomas-v-a2247117/";
+                            const url = "";
                             final uri = Uri.parse(url);
                             if (uri != Null) {
                               await launchUrl(uri);
@@ -356,7 +1195,7 @@ class _DelegateState extends State<Delegate> {
               color: Colors.lightBlue,
               child: SizedBox(
                 width: 300,
-                height: 500,
+                height: 400,
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(
@@ -366,7 +1205,7 @@ class _DelegateState extends State<Delegate> {
                         radius: 108,
                         child: const CircleAvatar(
                           backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/martin.jpg"), //NetworkImage
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/antony-joseph.jpg"), //NetworkImage
                           radius: 100,
                         ), //CircleAvatar
                       ), //CircleAvatar
@@ -374,7 +1213,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       Text(
-                        'Martin Helweg',
+                        'X A J Kitherian',
                         style: TextStyle(
                           fontSize: 30,
                           color: Colors.white,
@@ -385,7 +1224,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       const Text(
-                        'Chief Executive Officer P&O Maritime Logistics',
+                        'Founder & CEO Entoss Technologies',
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -398,7 +1237,7 @@ class _DelegateState extends State<Delegate> {
                         width: 100,
                         child: ElevatedButton(
                           onPressed: () async {
-                            const url = "https://www.linkedin.com/in/helweg/";
+                            const url = "https://www.linkedin.com/in/antony-joseph-kitherian-x/";
                             final uri = Uri.parse(url);
                             if (uri != Null) {
                               await launchUrl(uri);
@@ -432,7 +1271,7 @@ class _DelegateState extends State<Delegate> {
               color: Colors.lightBlue,
               child: SizedBox(
                 width: 300,
-                height: 500,
+                height: 400,
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(
@@ -442,7 +1281,159 @@ class _DelegateState extends State<Delegate> {
                         radius: 108,
                         child: const CircleAvatar(
                           backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/abhay-nimbalkar.jpg"), //NetworkImage
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/rahul.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Rahul Oak',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'Head of Energy Projects Torm Shipping India Pvt Ltd',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = "https://www.linkedin.com/in/rahul-oak-68930257/";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 400,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/rajasekhar.jpg"), //NetworkImage
+                          radius: 100,
+                        ), //CircleAvatar
+                      ), //CircleAvatar
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      Text(
+                        'Rajashekar K',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      const Text(
+                        'Chief General Manager (Inspection) Bharat Petroleum Corporation Ltd',
+                        style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white,
+                        ), //Textstyle
+                      ), //Text
+                      const SizedBox(
+                        height: 10,
+                      ), //SizedBox
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            const url = "https://www.linkedin.com/in/rajashekar-kappuram-b05191248/";
+                            final uri = Uri.parse(url);
+                            if (uri != Null) {
+                              await launchUrl(uri);
+                            } else {
+                              throw 'Could not launch $url';
+                            }
+                          },
+                          style: ButtonStyle(
+                              backgroundColor:
+                              MaterialStateProperty.all(Colors.black38)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4),
+                            child: Row(
+                              children: const [
+                                Icon(Icons.touch_app),
+                                Text('Visit')
+                              ],
+                            ),
+                          ),
+                        ),
+
+                      ) //SizedBox
+                    ],
+                  ), //Column
+                ), //Padding
+              ),
+            ),
+            Card(
+              elevation: 50,
+              shadowColor: Colors.black,
+              color: Colors.lightBlue,
+              child: SizedBox(
+                width: 300,
+                height: 450,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 108,
+                        child: const CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/abhay-nimbalkar.jpg"), //NetworkImage
                           radius: 100,
                         ), //CircleAvatar
                       ), //CircleAvatar
@@ -508,7 +1499,7 @@ class _DelegateState extends State<Delegate> {
               color: Colors.lightBlue,
               child: SizedBox(
                 width: 300,
-                height: 500,
+                height: 400,
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(
@@ -518,7 +1509,7 @@ class _DelegateState extends State<Delegate> {
                         radius: 108,
                         child: const CircleAvatar(
                           backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/brent-perry.jpg"), //NetworkImage
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/rupali.jpg"), //NetworkImage
                           radius: 100,
                         ), //CircleAvatar
                       ), //CircleAvatar
@@ -526,7 +1517,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       Text(
-                        'Brent Perry',
+                        'Rupali Raj Joshi',
                         style: TextStyle(
                           fontSize: 30,
                           color: Colors.white,
@@ -537,7 +1528,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       const Text(
-                        'CEO Shift Clean Energy',
+                        'Head of Marine Department New Mangalore Port Authority',
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -550,7 +1541,7 @@ class _DelegateState extends State<Delegate> {
                         width: 100,
                         child: ElevatedButton(
                           onPressed: () async {
-                            const url = "https://www.linkedin.com/in/brentaperry/";
+                            const url = "https://www.linkedin.com/in/rupali-raj-joshi-b7429884/";
                             final uri = Uri.parse(url);
                             if (uri != Null) {
                               await launchUrl(uri);
@@ -584,7 +1575,7 @@ class _DelegateState extends State<Delegate> {
               color: Colors.lightBlue,
               child: SizedBox(
                 width: 300,
-                height: 500,
+                height: 400,
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(
@@ -594,7 +1585,7 @@ class _DelegateState extends State<Delegate> {
                         radius: 108,
                         child: const CircleAvatar(
                           backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/andreas.jpg"), //NetworkImage
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/deepak-mishra.jpg"), //NetworkImage
                           radius: 100,
                         ), //CircleAvatar
                       ), //CircleAvatar
@@ -602,7 +1593,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       Text(
-                        'Andreas Chrysostomou',
+                        'Dr. Deepak Mishra',
                         style: TextStyle(
                           fontSize: 30,
                           color: Colors.white,
@@ -613,7 +1604,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       const Text(
-                        'Executive Director Clean Shipping Alliance',
+                        'Assistant professor IMU Kolkata',
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -626,7 +1617,7 @@ class _DelegateState extends State<Delegate> {
                         width: 100,
                         child: ElevatedButton(
                           onPressed: () async {
-                            const url = "https://www.linkedin.com/in/achrysostomou/";
+                            const url = "";
                             final uri = Uri.parse(url);
                             if (uri != Null) {
                               await launchUrl(uri);
@@ -647,7 +1638,6 @@ class _DelegateState extends State<Delegate> {
                             ),
                           ),
                         ),
-
                       ) //SizedBox
                     ],
                   ), //Column
@@ -660,7 +1650,7 @@ class _DelegateState extends State<Delegate> {
               color: Colors.lightBlue,
               child: SizedBox(
                 width: 300,
-                height: 500,
+                height: 400,
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(
@@ -670,7 +1660,7 @@ class _DelegateState extends State<Delegate> {
                         radius: 108,
                         child: const CircleAvatar(
                           backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/gireesh-menon.jpg"), //NetworkImage
+                              "https://www.shiptekmaritimeevents.com/shiptek-india/images/speakers/chirag-bahri.jpg"), //NetworkImage
                           radius: 100,
                         ), //CircleAvatar
                       ), //CircleAvatar
@@ -678,7 +1668,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       Text(
-                        'Gireesh Menon',
+                        'Chirag Bahri',
                         style: TextStyle(
                           fontSize: 30,
                           color: Colors.white,
@@ -689,7 +1679,7 @@ class _DelegateState extends State<Delegate> {
                         height: 10,
                       ), //SizedBox
                       const Text(
-                        'Managing Director Aries Marine & Engg.',
+                        'International Operations Manager ISWAN',
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.white,
@@ -702,918 +1692,7 @@ class _DelegateState extends State<Delegate> {
                         width: 100,
                         child: ElevatedButton(
                           onPressed: () async {
-                            const url = "https://www.linkedin.com/in/gireesh-m-menon-975b0b2b/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),
-            Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/ali-abouda.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Ali Abouda',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Chief Financial Officer Gulf Navigation Holding PJSC',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/aliaboudacpa/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),
-            Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/jamil-al-ali.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Jamil Al Ali',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Head of Commercial & BD Middle East Marine & Offshore, Bureau Veritas.',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/jamil-al-ali-68976445/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/evengenii.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Evgenii Egorov',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Business Development Manager CADMATIC',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/evgenii-egorov-74067558/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),
-            Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/willem-moelker.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Willem Moelker',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Sales & Marketing Director Albwardy Damen',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/willem-moelker-3686a96/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),
-            Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/vikas.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Capt. Vikas Pandey',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Co-Founder, COO ShipFinex',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/capt-vikaspandey/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),
-            Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/stam.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Stam Achillas',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Head of Business Development Wartsila Services Switzerland',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/stam-achillas/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),
-            Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/simon.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Simon Grainge',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Chief Executive, International Seafarers’ Welfare and Assistance Network (ISWAN)',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/simongrainge/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),
-            Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/vivek-seth1.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Vivek Seth',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Senior Vice President, Marine Services ADNOC Logistics & Services',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/vivekkseth/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),
-            Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/sherif-azzam.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Sherif Azzam',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Key Account Manager, Business Development Middle East at DNV Maritime',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/sherif-azzam/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),
-            Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/shakeel.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Shakeel Shamsudeen',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Business Development Manager Viswa Group',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/ShakeelShamsudeen/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),
-            Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/varsha.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Varsha V B',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Naval Architecture & Ship Building Engg. Sree Narayana Gurukulam',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/varsha-viswaprakash-ab819520b/";
-                            final uri = Uri.parse(url);
-                            if (uri != Null) {
-                              await launchUrl(uri);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          style: ButtonStyle(
-                              backgroundColor:
-                              MaterialStateProperty.all(Colors.black38)),
-                          child: Padding(
-                            padding: const EdgeInsets.all(4),
-                            child: Row(
-                              children: const [
-                                Icon(Icons.touch_app),
-                                Text('Visit')
-                              ],
-                            ),
-                          ),
-                        ),
-
-                      ) //SizedBox
-                    ],
-                  ), //Column
-                ), //Padding
-              ),
-            ),
-            Card(
-              elevation: 50,
-              shadowColor: Colors.black,
-              color: Colors.lightBlue,
-              child: SizedBox(
-                width: 300,
-                height: 500,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 108,
-                        child: const CircleAvatar(
-                          backgroundImage: NetworkImage(
-                              "https://shiptekmaritimeevents.com/shiptek-2023/assets/img/speakers/gokul.jpg"), //NetworkImage
-                          radius: 100,
-                        ), //CircleAvatar
-                      ), //CircleAvatar
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      Text(
-                        'Gokul A',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      const Text(
-                        'Btech Naval Architect Sree Narayana Gurukulam',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.white,
-                        ), //Textstyle
-                      ), //Text
-                      const SizedBox(
-                        height: 10,
-                      ), //SizedBox
-                      SizedBox(
-                        width: 100,
-                        child: ElevatedButton(
-                          onPressed: () async {
-                            const url = "https://www.linkedin.com/in/gokul/";
+                            const url = "https://www.linkedin.com/in/chirag-bahri-7b60985b/";
                             final uri = Uri.parse(url);
                             if (uri != Null) {
                               await launchUrl(uri);

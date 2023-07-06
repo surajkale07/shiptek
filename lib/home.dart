@@ -92,7 +92,7 @@ class _HomeState extends State<Home> {
                                 maxWidth: 252*fem,
                               ),
                               child: Text(
-                                'Shiptek International Conference and Awards 2023',
+                                'Marine Offshore Oil & Gas Conference | Excellence Awards , INDIA 2023',
                                 textAlign: TextAlign.center,
                                 style: SafeGoogleFont (
                                   'Judson',
@@ -153,7 +153,7 @@ class _HomeState extends State<Home> {
                                   // thto16thmarch2023i1N (8:178)
                                   margin: EdgeInsets.fromLTRB(0*fem, 1.95*fem, 0*fem, 0*fem),
                                   child: Text(
-                                    '15th to 16th March\'2023',
+                                    '25th May \'2023',
                                     style: SafeGoogleFont (
                                       'Judson',
                                       fontSize: 14*ffem,
@@ -215,7 +215,7 @@ class _HomeState extends State<Home> {
                                   // am0500pmSV6 (8:179)
                                   margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 0.05*fem),
                                   child: Text(
-                                    '09:00 AM - 05:00 PM',
+                                    '09:00 AM - 09:00 PM',
                                     style: SafeGoogleFont (
                                       'Judson',
                                       fontSize: 14*ffem,
@@ -276,7 +276,7 @@ class _HomeState extends State<Home> {
                                   // theaddressmarinahoteldubaiuvQ (8:180)
                                   margin: EdgeInsets.fromLTRB(0*fem, 1.55*fem, 0*fem, 0*fem),
                                   child: Text(
-                                    'The Address Marina Hotel, Dubai',
+                                    'Grand Hyatt , Kochi Bolgatty',
                                     style: SafeGoogleFont (
                                       'Judson',
                                       fontSize: 14*ffem,
@@ -329,7 +329,7 @@ class _HomeState extends State<Home> {
                                 ),
                                 children: [
                                   TextSpan(
-                                    text: 'After the resounding success of its 15th edition of ShipTek International Conference & Awards, we are back with the ',
+                                    text: 'Shiptek, the most popular Maritime Conference & Awards, is coming to India in 2023. Since its inception in 2008, the most popular name has traveled worldwide in many maritime hubs like Dubai, Singapore, Hongkong, Greece, Hamburg, etc., making it one of the finest Maritime events globally.',
                                     style: SafeGoogleFont (
                                       'Inter',
                                       fontSize: 12*ffem,
@@ -339,17 +339,7 @@ class _HomeState extends State<Home> {
                                     ),
                                   ),
                                   TextSpan(
-                                    text: '16th Edition',
-                                    style: SafeGoogleFont (
-                                      'Inter',
-                                      fontSize: 12*ffem,
-                                      fontWeight: FontWeight.w700,
-                                      height: 1.2125*ffem/fem,
-                                      color: Color(0xff000000),
-                                    ),
-                                  ),
-                                  TextSpan(
-                                    text: ' of this flagship event. Organized by Biz Events Management, the event is scheduled to be held on ',
+                                    text: ' ShipTek - Marine offshore Oil & Gas Conference | Excellence Awards 2023 – India Chapter will be a physical event aimed at key decision makers and high-level policymakers. The forerunners of ShipTek were all billed as ideal events which orchestrated turnarounds in the maritime industry. ShipTek has been blessed with a continuum of leader’s foresight and is an event setting a revolution in the Maritime world. ShipTek Conference focuses on key market trends, giving attendees a unique insight into the current opportunities. The intention is that attendees will leave the event with a much clearer idea about future trade patterns and market influences so they are better placed to build the foundations for longer-term business growth.',
                                     style: SafeGoogleFont (
                                       'Inter',
                                       fontSize: 12*ffem,
@@ -359,7 +349,7 @@ class _HomeState extends State<Home> {
                                     ),
                                   ),
                                   TextSpan(
-                                    text: '15th – 16th March 2023',
+                                    text: 'This mega event will comprise the following integral segments- ',
                                     style: SafeGoogleFont (
                                       'Inter',
                                       fontSize: 12*ffem,
@@ -369,7 +359,7 @@ class _HomeState extends State<Home> {
                                     ),
                                   ),
                                   TextSpan(
-                                    text: ' in Dubai. Like its former editions, the entire Maritime Industry welcomed the event wholeheartedly with tremendous support & encouragement making it a Grand Success. Always aimed at key decision makers & high-level policy takers within the Marine/Offshore/Oil & Gas sector, the event supports in mounting optimism about the future of many sectors of the regional shipping business.\n\nThe flagship event of Biz Events Management, ShipTek has set a benchmark as one of the Key Marine/Offshore/oil& Gas events happening in the region and you surely don’t want to miss being a part of yet another striking event. ',
+                                    text: ' One-day International Conference',
                                     style: SafeGoogleFont (
                                       'Inter',
                                       fontSize: 12*ffem,
@@ -379,7 +369,7 @@ class _HomeState extends State<Home> {
                                     ),
                                   ),
                                   TextSpan(
-                                    text: 'See you there..!!',
+                                    text: 'ShipTek International Maritime Awards',
                                     style: SafeGoogleFont (
                                       'Inter',
                                       fontSize: 12*ffem,
@@ -395,189 +385,6 @@ class _HomeState extends State<Home> {
                         ],
                       ),
                     ),
-
-                    // Text("SHIPTEK INTERNATIONAL CONFERENCE & AWARDS 2023",
-                    //   textAlign: TextAlign.center,
-                    //   style: TextStyle(
-                    //       fontSize: 30,
-                    //       color: Colors.redAccent,
-                    //       fontWeight: FontWeight.bold,
-                    //       decoration: TextDecoration.underline
-                    //   ),),
-                    // SizedBox(
-                    //   height: 20,
-                    // ),
-                    // InkWell(
-                    //   onTap: () async {
-                    //     const url = "https://goo.gl/maps/Z35XMs2DfU9w92ED8";
-                    //     final uri = Uri.parse(url);
-                    //     if (uri != Null) {
-                    //       await launchUrl(uri);
-                    //     } else {
-                    //       throw 'Could not launch $url';
-                    //     }
-                    //   },
-                    //   child : Container(
-                    //     child: Row(
-                    //         children: [
-                    //           Icon(
-                    //             Icons.location_on,
-                    //             size: 20,
-                    //             color: Colors.black87,
-                    //           ),
-                    //           Text("The Address Marina Hotel, Dubai ",
-                    //             style: TextStyle(
-                    //                 fontSize: 20,
-                    //                 fontWeight: FontWeight.bold ),),
-                    //         ]),
-                    //   ),
-                    // ),
-                    //
-                    // Text("09:00 am - 05:00 pm",
-                    //   textAlign: TextAlign.center,
-                    //   style: TextStyle(
-                    //       fontSize: 20,
-                    //       fontWeight: FontWeight.bold,
-                    //   ),),
-                    //
-                    // Row(children: [
-                    //   Icon(Icons.calendar_month_outlined),
-                    //   Text(" 15th – 16th March'2023 "),]),
-                    // SizedBox(
-                    //   height: 20,
-                    // ),
-                    // Container(
-                    //   height: 350,
-                    //   child: GridView(
-                    //     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    //         crossAxisCount: 2,
-                    //         mainAxisSpacing: 10,
-                    //         crossAxisSpacing: 10),
-                    //     children: [
-                    //       InkWell(
-                    //         onTap: () {
-                    //           // Navigator.of(context).pushReplacementNamed("/agenda");
-                    //           Navigator.push(
-                    //             context,
-                    //             MaterialPageRoute(
-                    //                 builder: (context) => const Agenda()),
-                    //           );
-                    //         },
-                    //         child: Container(
-                    //           decoration: BoxDecoration(
-                    //               color: Colors.lightBlue,
-                    //               shape: BoxShape.circle,
-                    //               border: Border.all(
-                    //                   width: 5.0, color: Colors.grey)),
-                    //           child: Column(
-                    //             mainAxisAlignment: MainAxisAlignment.center,
-                    //             children: const [
-                    //               Icon(
-                    //                 Icons.assessment_rounded,
-                    //                 size: 50,
-                    //                 color: Colors.white,
-                    //               ),
-                    //               Text(
-                    //                 "Agenda",
-                    //                 style: TextStyle(
-                    //                     color: Colors.white, fontSize: 25),
-                    //               )
-                    //             ],
-                    //           ),
-                    //         ),
-                    //       ),
-                    //       InkWell(
-                    //         onTap: () {
-                    //           // Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
-                    //         },
-                    //         child: Container(
-                    //           decoration: BoxDecoration(
-                    //               shape: BoxShape.circle,
-                    //               color: Colors.lightBlue,
-                    //               border: Border.all(
-                    //                   width: 5.0, color: Colors.grey)),
-                    //           child: Column(
-                    //             mainAxisAlignment: MainAxisAlignment.center,
-                    //             children: const [
-                    //               Icon(
-                    //                 Icons.chat,
-                    //                 size: 50,
-                    //                 color: Colors.white,
-                    //               ),
-                    //               Text(
-                    //                 "Forum",
-                    //                 style: TextStyle(
-                    //                     color: Colors.white, fontSize: 25),
-                    //               )
-                    //             ],
-                    //           ),
-                    //         ),
-                    //       ),
-                    //       InkWell(
-                    //         onTap: () {
-                    //           Navigator.push(
-                    //             context,
-                    //             MaterialPageRoute(
-                    //                 builder: (context) => const watchlive()),
-                    //           );
-                    //         },
-                    //         child: Container(
-                    //           decoration: BoxDecoration(
-                    //               shape: BoxShape.circle,
-                    //               color: Colors.lightBlue,
-                    //               border: Border.all(
-                    //                   width: 5.0, color: Colors.grey)),
-                    //           child: Column(
-                    //             mainAxisAlignment: MainAxisAlignment.center,
-                    //             children: const [
-                    //               Icon(
-                    //                 Icons.tv_rounded,
-                    //                 size: 50,
-                    //                 color: Colors.white,
-                    //               ),
-                    //               Text(
-                    //                 "Live",
-                    //                 style: TextStyle(
-                    //                     color: Colors.white, fontSize: 25),
-                    //               )
-                    //             ],
-                    //           ),
-                    //         ),
-                    //       ),
-                    //       InkWell(
-                    //         onTap: () {
-                    //           Navigator.push(
-                    //             context,
-                    //             MaterialPageRoute(
-                    //                 builder: (context) => const Delegate()),
-                    //           );
-                    //         },
-                    //         child: Container(
-                    //           decoration: BoxDecoration(
-                    //               shape: BoxShape.circle,
-                    //               color: Colors.lightBlue,
-                    //               border: Border.all(
-                    //                   width: 5.0, color: Colors.grey)),
-                    //           child: Column(
-                    //             mainAxisAlignment: MainAxisAlignment.center,
-                    //             children: const [
-                    //               Icon(
-                    //                 Icons.people_alt_rounded,
-                    //                 size: 50,
-                    //                 color: Colors.white,
-                    //               ),
-                    //               Text(
-                    //                 "Delegates",
-                    //                 style: TextStyle(
-                    //                     color: Colors.white, fontSize: 25),
-                    //               )
-                    //             ],
-                    //           ),
-                    //         ),
-                    //       ),
-                    //     ],
-                    //   ),
-                    // ),
                     SizedBox(
                       height: 20,
                     ),
@@ -604,33 +411,9 @@ class _HomeState extends State<Home> {
                         width: 300,
                         child: CarouselSlider(
                           items: [
-
                             InkWell(
                               onTap: () async {
-                                const url = "https://jams.edu.jo/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.asset(
-                                  "assets/images/jamsimg.jpg",
-                                  fit: BoxFit.contain,
-                                  height: 250,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.faisal-higgi.com/";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -640,140 +423,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/faisal.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://mawani.gov.sa/en-us/pages/default.aspx";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/mawani.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.wingd.com/en/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/wingd.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://marine-offshore.bureauveritas.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/bureue-veritas.png',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://ww2.eagle.org/en.html";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/abs-new.png',
-                                  fit: BoxFit.contain,
-                                  height: 250,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.gulfnav.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/gnh-logo.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.shipfinex.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/shipfinex.jpeg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/milaha.jpg',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -795,7 +445,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/shift-logo.png',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/shift-logo.png',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -807,7 +457,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://theviswagroup.com/";
+                                const url = "https://lenolmarine.com/";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -817,7 +467,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/viswa-logo.png',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/lenol.jpg',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -829,7 +479,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://www.gac.com/";
+                                const url = "https://www.pomfret.cloud/";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -839,30 +489,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/gac-logo1.jpg',
-                                  fit: BoxFit.contain,
-                                  height: 250,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.cadmatic.com/en/solutions/ship-design/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/cadmatic.png',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/pomfret-cloud.jpg',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -874,7 +501,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "http://www.stagmarine.com/x";
+                                const url = "https://stagmarine.com/";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -884,184 +511,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/stagmarine.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.wartsila.com/marine";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/wartsila-cmyk.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.albwardydamen.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/albwardy-damen.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/heritage-group.jpg',
-                                  fit: BoxFit.contain,
-                                  height: 250,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://fosrams.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/forsams.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "http://www.saifeeship.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/saifee1.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/unimarine.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.marasinews.com/  ";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/marasinews.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://assafinaonline.com/home/en/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/robban-assafina.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/stagmarine.jpg',
                                   fit: BoxFit.contain,
                                   height: 250,
                                 ),
@@ -1084,7 +534,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/trade-mark.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/classnk.jpg',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1096,7 +546,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://www.energycioinsights.com/";
+                                const url = "https://oceanicsre.com/";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1106,7 +556,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/cio-engry.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/oceanic-logo.png',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1118,7 +568,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "http://www.coalspot.com/";
+                                const url = "https://www.wallem.com/";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1128,7 +578,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/coal-spot.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/wallem.png',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1140,7 +590,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://exporooms.com/";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1150,7 +600,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/expo-rooms.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/nisaa.png',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1162,7 +612,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "http://www.petrofinder.com/";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1172,118 +622,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/petro-finder.jpg',
-                                  fit: BoxFit.contain,
-                                  height: 250,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://sailortoday.in/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/sailor-today.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.worldoils.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/worldils.png',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.financialnigeria.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/financial.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = 'https://www.greenjournal.co.uk/';
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/green-journal.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.greenmatch.co.uk/boilers/combi-boilers/electric-combi-boilers";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/green-match.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/icc-shipping.jpeg',
                                   fit: BoxFit.contain,
                                   height: 250,
                                 ),
@@ -1306,206 +645,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/oasis.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "http://refinerlink.com/cgi-sys/suspendedpage.cgi";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/refinerlink.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.hellenicshippingnews.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/hellenic.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.ufofreight.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/30.png',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.projectcargonetwork.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/7.png',
-                                  fit: BoxFit.contain,
-                                  height: 250,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.cargoconnections.net/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/8.png',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.freightbook.net/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/11.png',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.energydais.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/energy.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.marineinsight.com/ ";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/marine.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.bunkerspot.com/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/bunker.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/fosma.png',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1527,30 +667,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/clean-shipping-logo.png',
-                                  fit: BoxFit.contain,
-                                  height: 250,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "http://www.arabwima.org/en/home";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/awima.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/wista-india.jpg',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1562,7 +679,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://www.youngship.com/departments/uae/";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1572,7 +689,29 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/young-ship.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/dsaai.png',
+                                  fit: BoxFit.contain,
+                                ),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10.0),
+                                ),
+                                elevation: 5,
+                                margin: EdgeInsets.all(10),
+                              ),
+                            ),
+                            InkWell(
+                              onTap: () async {
+                                const url = "https://www.seafarerswelfare.org/";
+                                final uri = Uri.parse(url);
+                                if (uri != Null) {
+                                  await launchUrl(uri);
+                                } else {
+                                  throw 'Could not launch $url';
+                                }
+                              },
+                              child: Card(
+                                child: Image.network(
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/iswan.jpg',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1594,51 +733,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/dcmmi.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = 'https://www.fonasba.com/';
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/fona.jpg',
-                                  fit: BoxFit.contain,
-                                ),
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                ),
-                                elevation: 5,
-                                margin: EdgeInsets.all(10),
-                              ),
-                            ),
-                            InkWell(
-                              onTap: () async {
-                                const url = "https://www.dubaisaa.ae/";
-                                final uri = Uri.parse(url);
-                                if (uri != Null) {
-                                  await launchUrl(uri);
-                                } else {
-                                  throw 'Could not launch $url';
-                                }
-                              },
-                              child: Card(
-                                child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/dsaa1.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/dcmmi.jpg',
                                   fit: BoxFit.contain,
                                   height: 250,
                                 ),
@@ -1661,7 +756,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/ics1.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/marasi.png',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1673,7 +768,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://www.globalialogisticsnetwork.com/";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1683,7 +778,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/40.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/globalia.png',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1695,7 +790,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://www.thecooperativelogisticsnetwork.com/";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1705,7 +800,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/41.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/marex.png',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1717,7 +812,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://www.conquerornetwork.com/";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1727,7 +822,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/42.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/trademaker.png',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1739,7 +834,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://www.internationalfreightnetwork.com/";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1749,7 +844,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/32.png',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/shipping-tribune.png',
                                   fit: BoxFit.contain,
                                   height: 250,
                                 ),
@@ -1762,7 +857,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://www.specialistfreightnetworks.com/default.aspx";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1772,7 +867,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/33.png',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/maritime-matrix.jpg',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1784,7 +879,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://www.worldfreightnetwork.com/";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1794,7 +889,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/34.png',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/port.jpg',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1806,7 +901,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://www.energydais.com/";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1816,7 +911,7 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/energy.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/sagar.jpg',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
@@ -1828,7 +923,7 @@ class _HomeState extends State<Home> {
                             ),
                             InkWell(
                               onTap: () async {
-                                const url = "https://www.marineinsight.com/ ";
+                                const url = "";
                                 final uri = Uri.parse(url);
                                 if (uri != Null) {
                                   await launchUrl(uri);
@@ -1838,11 +933,34 @@ class _HomeState extends State<Home> {
                               },
                               child: Card(
                                 child: Image.network(
-                                  'https://shiptekmaritimeevents.com/shiptek-2023/assets/img/sponsors/marine.jpg',
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/bunkerspot.jpg',
                                   fit: BoxFit.contain,
                                 ),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(10.0),
+                                ),
+                                elevation: 5,
+                                margin: EdgeInsets.all(10),
+                              ),
+                            ),
+                            InkWell(
+                              onTap: () async {
+                                const url = "";
+                                final uri = Uri.parse(url);
+                                if (uri != Null) {
+                                  await launchUrl(uri);
+                                } else {
+                                  throw 'Could not launch $url';
+                                }
+                              },
+                              child: Card(
+                                child: Image.network(
+                                  'https://www.shiptekmaritimeevents.com/shiptek-india/images/sponsors/worildils.jpg',
+                                  fit: BoxFit.contain,
+                                  height: 250,
+                                ),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20.0),
                                 ),
                                 elevation: 5,
                                 margin: EdgeInsets.all(10),
